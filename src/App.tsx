@@ -7,9 +7,9 @@ import { fetchPortfolio, setLoadFailed } from './store/portfolioSlice';
 import { useAppDispatch, useAppSelector } from './store';
 
 const WIP_BANNER_CONTACT = {
-  fullName: 'Ankit Patil',
+  fullName: 'Divya Shiral',
   phone: '+91-9922328647',
-  email: 'ankitjpatil28@gmail.com',
+  email: 'shiraldivya25@gmail.com',
 };
 
 function App() {

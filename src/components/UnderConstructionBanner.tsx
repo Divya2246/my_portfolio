@@ -8,7 +8,7 @@ interface UnderConstructionBannerProps {
 }
 
 export default function UnderConstructionBanner({
-  fullName = 'Ankit Patil',
+  fullName = 'Divya Shiral',
   phone = '9922328647',
   email = 'mailofdeveloper@gmail.com',
 }: UnderConstructionBannerProps) {
@@ -55,7 +55,7 @@ export default function UnderConstructionBanner({
             ) : null}
           </div>
           <p className="mt-8 text-sm text-faint">
-            Developed by <span className="font-medium text-accent"><a href="https://ankitpatil.com" target="_blank" rel="noopener noreferrer">ankitpatil.com</a></span>
+            Developed by <span className="font-medium text-accent"><a href="https://shiraldivya25@gmail.com" target="_blank" rel="noopener noreferrer">shiraldivya25@gmail.com</a></span>
           </p>
         </div>
       </div>

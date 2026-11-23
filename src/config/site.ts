@@ -1,5 +1,5 @@
-export const SITE_NAME = 'ankitpatil.com';
-export const CONTACT_FROM_NAME = 'ankitpatil.com';
+export const SITE_NAME = 'shiraldivya25@gmail.com';
+export const CONTACT_FROM_NAME = 'shiraldivya25@gmail.com';
 
 /** Mailto fallback when Web3Forms is missing or the request fails. */
 export const CONTACT_EMAIL =

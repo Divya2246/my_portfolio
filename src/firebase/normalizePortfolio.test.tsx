@@ -24,8 +24,8 @@ beforeAll(() => {
 });
 
 const messy = {
-  fullName: '  Ankit Patil  ',
-  email: 'ankit@example.com',
+  fullName: '  Divya Shiral  ',
+  email: 'Divya@example.com',
   showWIPBanner: 'false',
   avatarUrl: 'https://cdn.example.com/legacy.jpg',
   avatarUrls: [' https://cdn.example.com/a.jpg ', '', 'https://cdn.example.com/b.jpg'],
@@ -76,13 +76,13 @@ describe('normalizePortfolio', () => {
     expect(data.faqItems).toEqual([]);
     expect(data.services).toEqual(['Custom React apps']);
     expect(data.achievements).toEqual(['Spoke at a meetup']);
-    expect(normalizePortfolio({ fullName: 'Ankit', email: 'a@b.c' }).experience).toEqual([]);
+    expect(normalizePortfolio({ fullName: 'Divya', email: 'a@b.c' }).experience).toEqual([]);
   });
 
   it('keeps organization projects on the role that built them', () => {
     const saved = normalizePortfolio({
-      fullName: 'Ankit Patil',
-      email: 'ankit@example.com',
+      fullName: 'Divya Shiral',
+      email: 'Divya@example.com',
       experience: [
         {
           role: '',
@@ -155,7 +155,7 @@ describe('normalizePortfolio', () => {
       </ThemeProvider>
     );
 
-    expect(screen.getByRole('heading', { level: 1, name: 'Ankit Patil' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { level: 1, name: 'Divya Shiral' })).toBeInTheDocument();
     expect(screen.getByRole('heading', { name: 'Portfolio' })).toBeInTheDocument();
     expect(screen.getByText('React')).toBeInTheDocument();
     expect(screen.getByText('Next.js')).toBeInTheDocument();

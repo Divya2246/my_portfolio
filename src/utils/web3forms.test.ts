@@ -42,9 +42,9 @@ describe('submitContactViaWeb3Forms', () => {
     expect(body.get('replyto')).toBe(fields.email);
     expect(body.get('message')).toBe(fields.message);
     expect(body.get('botcheck')).toBe('');
-    expect(body.get('from_name')).toBe('ankitpatil.com');
-    expect(body.get('project_name')).toBe('ankitpatil.com');
-    expect(body.get('subject')).toBe('[ankitpatil.com] Contact from Ada Lovelace');
+    expect(body.get('from_name')).toBe('shiraldivya25@gmail.com');
+    expect(body.get('project_name')).toBe('shiraldivya25@gmail.com');
+    expect(body.get('subject')).toBe('[shiraldivya25@gmail.com] Contact from Ada Lovelace');
     expect(body.get('source')).toBe('contact-page');
   });
 
